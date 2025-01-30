@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-nx-monorepo/orders": ["libs/orders/src/index.ts"],
+      "@my-nx-monorepo/products": ["libs/products/src/index.ts"],
+      "@my-nx-monorepo/shared-ui": ["libs/shared-ui/src/index.ts"],
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
